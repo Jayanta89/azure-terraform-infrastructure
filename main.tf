@@ -30,8 +30,4 @@ resource "azurerm_resource_group" "rg" {
   location = "Central India"
 }
 
-    tags = {
-    environment = "staging"
-  }
-
 
