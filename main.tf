@@ -27,7 +27,7 @@ variable "prefix" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "${var.prefix}-ResourceGroup"
-  location = "Central India"
+  location = "East US"
 }
 
 
